@@ -1,4 +1,5 @@
 import './markdown-view.css'
+import 'highlight.js/styles/github-dark.css'
 import React, { useEffect } from 'react'
 import { Box } from '@kuma-ui/core'
 import markdownContent from '@/example.md?raw'
